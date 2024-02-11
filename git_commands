@@ -1,0 +1,37 @@
+# Cloning your repo
+git clone https://github.com/sushanthakumar/git-handson.git
+
+# Checking out to seperate repo and switching to desired repo
+git checkout -b work1
+git checkout -b work2
+git checkout work1
+
+# Viewing current branch, remote repos and current git status in local
+git branch
+git remote -v
+git status
+
+# Staging, commitng and pushing the modified files
+git add a.txt
+git commit -s -m "First commit"
+git log
+git commit --amend
+git push origin work1
+
+# Conflict simulation and resolution steps:
+#Make change in work1
+#commit
+#Pull code from work2 (git pull origin work2)
+#Push code to work1 (git push origin work1)
+#Results in Conflict
+#Open the conflicted file
+#keep the correct change and clean other info
+git commit
+git push origin work1
+
+# Permanantly deleting last few commits
+git log
+# Not down the commit id to which you want to rebase. Note that all changes will be lost after completing these steps
+git rest -- hard <commit-id>
+git commit
+git push origin <branch-name>
