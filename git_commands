@@ -1,5 +1,7 @@
+# Fork this repo
+
 # Cloning your repo
-git clone https://github.com/sushanthakumar/git-handson.git
+git clone https://github.com/<your-github-id>/git-handson.git
 
 # Checking out to seperate repo and switching to desired repo
 git checkout -b work1
