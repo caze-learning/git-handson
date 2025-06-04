@@ -20,6 +20,8 @@ git log
 git commit --amend
 git push origin work1
 
+# Check the changes in github web page
+
 # Conflict simulation and resolution steps:
 #Make change in work1
 #commit
