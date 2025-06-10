@@ -13,8 +13,9 @@ git branch
 git remote -v
 git status
 
+# Create a new text file b.txt
 # Staging, commitng and pushing the modified files
-git add a.txt
+git add b.txt
 git commit -s -m "First commit"
 git log
 git commit --amend
